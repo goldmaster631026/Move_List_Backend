@@ -26,3 +26,4 @@ app.get("/", (req, res) => {
 app.use("/api", routes)
 
 app.listen(PORT, console.log(`⏳ Server is Running at https://${HOST}/${PORT}`))
+//server
