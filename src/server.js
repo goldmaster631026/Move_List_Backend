@@ -7,7 +7,7 @@ const dotenv = require("dotenv")
 const dbConnect = require('./config/db')
 const routes = require('../src/routes/api/index')
 
-const app = express();
+//const app = express();
 dotenv.config()
 dbConnect();
 
