@@ -12,7 +12,7 @@ dotenv.config()
 dbConnect();
 
 const HOST = process.env.HOST
-const PORT = process.env.PORT;
+
 
 app.use(cors());
 app.use(bodyParser.json({ limit: "1mb" }));
