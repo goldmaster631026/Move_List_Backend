@@ -18,7 +18,6 @@ app.use(cors());
 app.use(bodyParser.json({ limit: "1mb" }));
 app.use(bodyParser.urlencoded({ limit: "1mb", extended: true }));
 app.use(morgan("dev"))
-
 app.get("/", (req, res) => {
  res.status(200).json({msg:"⏳ Server is running"})
 })
