@@ -21,7 +21,7 @@ app.use(morgan("dev"))
 app.get("/", (req, res) => {
  res.status(200).json({msg:"⏳ Server is running"})
 })
-//commit23
+//commit
 app.use("/api", routes)
 
 app.listen(PORT, console.log(`⏳ Server is Running at https://${HOST}/${PORT}`))
